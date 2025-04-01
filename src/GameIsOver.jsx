@@ -9,7 +9,7 @@ const GameIsOver = ({ score }) => {
     }, 100);
   }, []);
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-20 bg-black bg-opacity-80">
+    <div className="fixed z-50 inset-0 flex items-center justify-center bg-black bg-opacity-80">
       <div 
         className={`bg-gradient-to-b from-white to-gray-100 p-10 rounded-xl text-center shadow-2xl transform transition-all duration-500 ease-out ${animationClass} max-w-lg w-full mx-4`}
         style={{
